@@ -1,10 +1,10 @@
 # tradi2digital
 A python script to denoise scanned traditional art and remove ink artifacts, works with pencil.
 
-### Input:
-![Result](images/input.png)
-### Output:
-![Result](images/result.png)
+### Before:
+![Before](input.png)
+### After:
+![After](result.png)
 
 # Usage
 Install requirements inside a virtual environment
