@@ -1,6 +1,23 @@
 # tradi2digital
 A python script to denoise scanned traditional art and remove ink artifacts, works with pencil.
 
+### Input:
+![Result](images/input.png)
+### Output:
+![Result](images/result.png)
+
+# Usage
+Install requirements inside a virtual environment
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+Then change output dir and input dir inside the script, then run it with:
+```
+python3 script.py
+```
+
 # Known Limitations
 1. This script only works with grayscale, best used for traditional lineart to be colored/shaded digitally.
 2. The algorithm used in the script will smooth dotted shading as far as I'm concerned since it's designed to remove dots and noise artifacts from the paper or ink
